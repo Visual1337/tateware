@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="map\intel_driver.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="map\kdmapper.cpp">
+      <Filter>Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="map\portable_executable.cpp">
+      <Filter>Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="map\service.cpp">
+      <Filter>Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="map\utils.cpp">
+      <Filter>Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Movement\MouseController.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Security\No Access\protect.cpp">
+      <Filter>Security\No Access</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\driver.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="defs.h" />
+    <ClInclude Include="Security\lazy_import.hpp">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\modules.hpp">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\xor_string.hpp">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\modules\anti_dump.hpp">
+      <Filter>Security\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\modules\anti_vm.hpp">
+      <Filter>Security\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\modules\assembly.hpp">
+      <Filter>Security\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\modules\debugger.hpp">
+      <Filter>Security\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\modules\patches.hpp">
+      <Filter>Security\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\modules\processes.hpp">
+      <Filter>Security\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d9_x.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx9.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.hpp">
+      <Filter>Encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="map\xorstr.hpp">
+      <Filter>Encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="xorrstrr.hpp">
+      <Filter>Encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>Encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="map\intel_driver.hpp">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="map\intel_driver_resource.hpp">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="map\kdmapper.hpp">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="map\portable_executable.hpp">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="map\nt.hpp">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="map\service.hpp">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="map\utils.hpp">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="win_utils.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Movement\MouseController.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Gloomy.cc-Fortnite-master\Controller.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="icons.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\No Access\protect.h">
+      <Filter>Security\No Access</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_widgets.h" />
+    <ClInclude Include="driver\driver.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\driverdefs.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="library_x64.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="libs\zlib.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="D3XD\d3dx9.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Decrypt">
+      <UniqueIdentifier>{c499a071-0434-4c5c-a710-8834d42d929f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security">
+      <UniqueIdentifier>{78c90b96-eafb-42b8-8aa4-6ee2bd715f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security\Modules">
+      <UniqueIdentifier>{d10ed453-6055-4193-978c-ff931443a991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{5b63157f-f2b3-49ef-a8fb-ec6fbfe4bda4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{1b96440c-b8e6-4fd9-a8b4-87bee9bf17a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mapper">
+      <UniqueIdentifier>{eea8392b-775e-4941-b0e4-f21bdfa47fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{cea5e632-137e-42fc-bb18-e91cdeff8ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{7bc9d7be-5185-45ae-83be-b4768ce1ba37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encrypt">
+      <UniqueIdentifier>{eb012836-80e3-4e81-970a-9a78dc32c446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{d2292e58-c419-4215-942e-2a34baf648b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement">
+      <UniqueIdentifier>{5eab6026-7986-4a49-83af-49bdc810fdcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{e8483fb6-7f7b-4792-8a3f-9c5b8fa6a200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1e07e6d1-f523-4442-b439-99098f617c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security\No Access">
+      <UniqueIdentifier>{e37eacb9-3f76-4e2a-97d4-2a2fe11678ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini">
+      <Filter>Imgui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
